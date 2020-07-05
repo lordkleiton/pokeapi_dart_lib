@@ -1,9 +1,7 @@
 name: pokeapi_dart_client
-description: A full-fledged pokéapi dart client.
-
-publish_to: "none"
-
 version: 1.0.0+1
+description: A fully fledged pokéapi dart client.
+homepage: https://github.com/lordkleiton/pokeapi_dart_client
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
