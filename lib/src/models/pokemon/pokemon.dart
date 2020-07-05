@@ -1,13 +1,13 @@
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource_list.dart';
-import 'package:flutter_pokedex/models/common/version_game_index.dart';
-import 'package:flutter_pokedex/models/pokemon/pokemon_ability.dart';
-import 'package:flutter_pokedex/models/pokemon/pokemon_held_item.dart';
-import 'package:flutter_pokedex/models/pokemon/pokemon_move.dart';
-import 'package:flutter_pokedex/models/pokemon/pokemon_sprites.dart';
-import 'package:flutter_pokedex/models/pokemon/pokemon_stat.dart';
-import 'package:flutter_pokedex/models/pokemon/pokemon_type.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/named_api_resource.dart';
+import '../common/named_api_resource_list.dart';
+import '../common/version_game_index.dart';
+import '../pokemon/pokemon_ability.dart';
+import '../pokemon/pokemon_held_item.dart';
+import '../pokemon/pokemon_move.dart';
+import '../pokemon/pokemon_sprites.dart';
+import '../pokemon/pokemon_stat.dart';
+import '../pokemon/pokemon_type.dart';
+import '../../network/rest.dart';
 
 class Pokemon {
   int id;

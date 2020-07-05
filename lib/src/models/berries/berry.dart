@@ -1,7 +1,7 @@
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/berries/berry_flavor_map.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource_list.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/named_api_resource.dart';
+import '../berries/berry_flavor_map.dart';
+import '../common/named_api_resource_list.dart';
+import '../../network/rest.dart';
 
 class Berry {
   int id;

@@ -1,5 +1,5 @@
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/locations/encounter_version_details.dart';
+import '../common/named_api_resource.dart';
+import '../locations/encounter_version_details.dart';
 
 class EncounterMethodRate {
   NamedApiResource encounterMethod;

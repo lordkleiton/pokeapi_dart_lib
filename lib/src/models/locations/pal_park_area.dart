@@ -1,7 +1,7 @@
-import 'package:flutter_pokedex/models/common/name.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource_list.dart';
-import 'package:flutter_pokedex/models/locations/pal_park_encounter_species.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/name.dart';
+import '../common/named_api_resource_list.dart';
+import '../locations/pal_park_encounter_species.dart';
+import '../../network/rest.dart';
 
 class PalParkArea {
   int id;

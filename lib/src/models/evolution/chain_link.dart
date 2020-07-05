@@ -1,5 +1,5 @@
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/evolution/evolution_detail.dart';
+import '../common/named_api_resource.dart';
+import '../evolution/evolution_detail.dart';
 
 class ChainLink {
   bool isBaby;

@@ -1,10 +1,10 @@
-import 'package:flutter_pokedex/models/common/api_resource.dart';
-import 'package:flutter_pokedex/models/common/name.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource_list.dart';
-import 'package:flutter_pokedex/models/pokemon/move_stat_affect_sets.dart';
-import 'package:flutter_pokedex/models/pokemon/nature_stat_affect_sets.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/api_resource.dart';
+import '../common/name.dart';
+import '../common/named_api_resource.dart';
+import '../common/named_api_resource_list.dart';
+import '../pokemon/move_stat_affect_sets.dart';
+import '../pokemon/nature_stat_affect_sets.dart';
+import '../../network/rest.dart';
 
 class Stat {
   int id;

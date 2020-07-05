@@ -1,7 +1,7 @@
-import 'package:flutter_pokedex/models/common/name.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource_list.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/name.dart';
+import '../common/named_api_resource.dart';
+import '../common/named_api_resource_list.dart';
+import '../../network/rest.dart';
 
 class PokemonHabitat {
   int id;

@@ -1,7 +1,7 @@
-import 'package:flutter_pokedex/models/common/api_resource_list.dart';
-import 'package:flutter_pokedex/models/common/effect.dart';
-import 'package:flutter_pokedex/models/common/flavor_text.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/api_resource_list.dart';
+import '../common/effect.dart';
+import '../common/flavor_text.dart';
+import '../../network/rest.dart';
 
 class ContestEffect {
   int id;

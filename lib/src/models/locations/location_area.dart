@@ -1,9 +1,9 @@
-import 'package:flutter_pokedex/models/common/name.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource_list.dart';
-import 'package:flutter_pokedex/models/locations/encounter_method_rate.dart';
-import 'package:flutter_pokedex/models/locations/pokemon_encounter.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/name.dart';
+import '../common/named_api_resource.dart';
+import '../common/named_api_resource_list.dart';
+import '../locations/encounter_method_rate.dart';
+import '../locations/pokemon_encounter.dart';
+import '../../network/rest.dart';
 
 class LocationArea {
   int id;

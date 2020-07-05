@@ -1,7 +1,7 @@
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource_list.dart';
-import 'package:flutter_pokedex/models/contests/contest_name.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/named_api_resource.dart';
+import '../common/named_api_resource_list.dart';
+import '../contests/contest_name.dart';
+import '../../network/rest.dart';
 
 class ContestType {
   int id;

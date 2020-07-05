@@ -1,8 +1,8 @@
-import 'package:flutter_pokedex/models/common/name.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource_list.dart';
-import 'package:flutter_pokedex/models/pokemon/pokemon_form_sprites.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/name.dart';
+import '../common/named_api_resource.dart';
+import '../common/named_api_resource_list.dart';
+import '../pokemon/pokemon_form_sprites.dart';
+import '../../network/rest.dart';
 
 class PokemonForm {
   int id;

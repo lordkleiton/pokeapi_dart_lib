@@ -1,8 +1,8 @@
-import 'package:flutter_pokedex/models/common/description.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource_list.dart';
-import 'package:flutter_pokedex/models/pokemon/growth_rate_experience_level.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/description.dart';
+import '../common/named_api_resource.dart';
+import '../common/named_api_resource_list.dart';
+import '../pokemon/growth_rate_experience_level.dart';
+import '../../network/rest.dart';
 
 class GrowthRate {
   int id;

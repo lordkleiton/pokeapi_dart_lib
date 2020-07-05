@@ -1,5 +1,5 @@
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/utils/has_language.dart';
+import '../common/named_api_resource.dart';
+import '../utils/has_language.dart';
 
 class FlavorText extends HasLanguage {
   String flavorText;

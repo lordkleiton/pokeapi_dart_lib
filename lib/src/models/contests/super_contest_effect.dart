@@ -1,7 +1,7 @@
-import 'package:flutter_pokedex/models/common/api_resource_list.dart';
-import 'package:flutter_pokedex/models/common/flavor_text.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/api_resource_list.dart';
+import '../common/flavor_text.dart';
+import '../common/named_api_resource.dart';
+import '../../network/rest.dart';
 
 class SuperContestEffect {
   int id;

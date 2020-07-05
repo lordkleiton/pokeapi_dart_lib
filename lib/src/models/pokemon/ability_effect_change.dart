@@ -1,5 +1,5 @@
-import 'package:flutter_pokedex/models/common/effect.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
+import '../common/effect.dart';
+import '../common/named_api_resource.dart';
 
 class AbilityEffectChange {
   List<Effect> effectEntries;

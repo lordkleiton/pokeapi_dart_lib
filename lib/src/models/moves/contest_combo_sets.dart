@@ -1,4 +1,4 @@
-import 'package:flutter_pokedex/models/moves/contest_combo_detail.dart';
+import '../moves/contest_combo_detail.dart';
 
 class ContestComboSets {
   ContestComboDetail normal;

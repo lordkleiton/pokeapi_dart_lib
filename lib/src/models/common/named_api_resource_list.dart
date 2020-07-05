@@ -1,5 +1,5 @@
-import 'package:flutter_pokedex/models/common/resource_list.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
+import '../common/resource_list.dart';
+import '../common/named_api_resource.dart';
 
 class NamedApiResourceList extends ResourceList {
   List<NamedApiResource> results;

@@ -1,5 +1,5 @@
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/common/version_encounter_detail.dart';
+import '../common/named_api_resource.dart';
+import '../common/version_encounter_detail.dart';
 
 class PokemonEncounter {
   NamedApiResource pokemon;

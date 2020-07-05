@@ -1,5 +1,5 @@
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/pokemon/pokemon_move_version.dart';
+import '../common/named_api_resource.dart';
+import '../pokemon/pokemon_move_version.dart';
 
 class PokemonMove {
   NamedApiResource move;

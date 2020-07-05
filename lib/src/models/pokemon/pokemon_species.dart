@@ -1,13 +1,13 @@
-import 'package:flutter_pokedex/models/common/api_resource.dart';
-import 'package:flutter_pokedex/models/common/description.dart';
-import 'package:flutter_pokedex/models/common/flavor_text.dart';
-import 'package:flutter_pokedex/models/common/name.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource_list.dart';
-import 'package:flutter_pokedex/models/pokemon/pal_park_encounter_area.dart';
-import 'package:flutter_pokedex/models/pokemon/pokemon_species_dex_entry.dart';
-import 'package:flutter_pokedex/models/pokemon/pokemon_species_variety.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/api_resource.dart';
+import '../common/description.dart';
+import '../common/flavor_text.dart';
+import '../common/name.dart';
+import '../common/named_api_resource.dart';
+import '../common/named_api_resource_list.dart';
+import '../pokemon/pal_park_encounter_area.dart';
+import '../pokemon/pokemon_species_dex_entry.dart';
+import '../pokemon/pokemon_species_variety.dart';
+import '../../network/rest.dart';
 
 class PokemonSpecies {
   int id;

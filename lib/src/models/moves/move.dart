@@ -1,16 +1,16 @@
-import 'package:flutter_pokedex/models/common/api_resource.dart';
-import 'package:flutter_pokedex/models/common/machine_version_detail.dart';
-import 'package:flutter_pokedex/models/common/name.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource_list.dart';
-import 'package:flutter_pokedex/models/common/verbose_effect.dart';
-import 'package:flutter_pokedex/models/moves/contest_combo_sets.dart';
-import 'package:flutter_pokedex/models/moves/move_flavor_text.dart';
-import 'package:flutter_pokedex/models/moves/move_meta_data.dart';
-import 'package:flutter_pokedex/models/moves/move_stat_change.dart';
-import 'package:flutter_pokedex/models/moves/past_move_stat_values.dart';
-import 'package:flutter_pokedex/models/pokemon/ability_effect_change.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/api_resource.dart';
+import '../common/machine_version_detail.dart';
+import '../common/name.dart';
+import '../common/named_api_resource.dart';
+import '../common/named_api_resource_list.dart';
+import '../common/verbose_effect.dart';
+import '../moves/contest_combo_sets.dart';
+import '../moves/move_flavor_text.dart';
+import '../moves/move_meta_data.dart';
+import '../moves/move_stat_change.dart';
+import '../moves/past_move_stat_values.dart';
+import '../pokemon/ability_effect_change.dart';
+import '../../network/rest.dart';
 
 class Move {
   int id;

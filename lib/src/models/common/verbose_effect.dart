@@ -1,4 +1,4 @@
-import 'package:flutter_pokedex/models/utils/has_language.dart';
+import '../utils/has_language.dart';
 
 class VerboseEffect extends HasLanguage {
   String effect;

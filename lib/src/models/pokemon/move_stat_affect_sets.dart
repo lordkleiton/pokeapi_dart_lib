@@ -1,4 +1,4 @@
-import 'package:flutter_pokedex/models/pokemon/move_stat_affect.dart';
+import '../pokemon/move_stat_affect.dart';
 
 class MoveStatAffectSets {
   List<MoveStatAffect> increase;

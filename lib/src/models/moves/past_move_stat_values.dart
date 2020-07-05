@@ -1,5 +1,5 @@
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/common/verbose_effect.dart';
+import '../common/named_api_resource.dart';
+import '../common/verbose_effect.dart';
 
 class PastMoveStatValues {
   int accuracy;

@@ -1,7 +1,7 @@
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource_list.dart';
-import 'package:flutter_pokedex/models/pokemon/pokemon_species_gender.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/named_api_resource.dart';
+import '../common/named_api_resource_list.dart';
+import '../pokemon/pokemon_species_gender.dart';
+import '../../network/rest.dart';
 
 class Gender {
   int id;

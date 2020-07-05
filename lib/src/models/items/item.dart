@@ -1,14 +1,14 @@
-import 'package:flutter_pokedex/models/common/api_resource.dart';
-import 'package:flutter_pokedex/models/common/generation_game_index.dart';
-import 'package:flutter_pokedex/models/common/machine_version_detail.dart';
-import 'package:flutter_pokedex/models/common/name.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource_list.dart';
-import 'package:flutter_pokedex/models/common/verbose_effect.dart';
-import 'package:flutter_pokedex/models/common/version_group_flavor_text.dart';
-import 'package:flutter_pokedex/models/items/item_holder_pokemon.dart';
-import 'package:flutter_pokedex/models/items/item_sprites.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/api_resource.dart';
+import '../common/generation_game_index.dart';
+import '../common/machine_version_detail.dart';
+import '../common/name.dart';
+import '../common/named_api_resource.dart';
+import '../common/named_api_resource_list.dart';
+import '../common/verbose_effect.dart';
+import '../common/version_group_flavor_text.dart';
+import '../items/item_holder_pokemon.dart';
+import '../items/item_sprites.dart';
+import '../../network/rest.dart';
 
 class Item {
   int id;

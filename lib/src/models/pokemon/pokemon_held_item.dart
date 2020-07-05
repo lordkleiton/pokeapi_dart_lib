@@ -1,5 +1,5 @@
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/pokemon/pokemon_held_item_version.dart';
+import '../common/named_api_resource.dart';
+import '../pokemon/pokemon_held_item_version.dart';
 
 class PokemonHeldItem {
   NamedApiResource item;

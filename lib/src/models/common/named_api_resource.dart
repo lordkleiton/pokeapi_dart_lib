@@ -1,4 +1,4 @@
-import 'package:flutter_pokedex/models/common/api_resource.dart';
+import '../common/api_resource.dart';
 
 class NamedApiResource extends ApiResource {
   String name;

@@ -1,9 +1,9 @@
-import 'package:flutter_pokedex/models/common/name.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource.dart';
-import 'package:flutter_pokedex/models/common/named_api_resource_list.dart';
-import 'package:flutter_pokedex/models/pokemon/move_battle_style_preference.dart';
-import 'package:flutter_pokedex/models/pokemon/nature_stat_change.dart';
-import 'package:flutter_pokedex/network/rest.dart';
+import '../common/name.dart';
+import '../common/named_api_resource.dart';
+import '../common/named_api_resource_list.dart';
+import '../pokemon/move_battle_style_preference.dart';
+import '../pokemon/nature_stat_change.dart';
+import '../../network/rest.dart';
 
 class Nature {
   int id;

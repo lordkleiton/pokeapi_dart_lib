@@ -1,4 +1,4 @@
-import 'package:flutter_pokedex/models/pokemon/nature_pokeathlon_stat_affect.dart';
+import '../pokemon/nature_pokeathlon_stat_affect.dart';
 
 class NaturePokeathlonStatAffectSets {
   List<NaturePokeathlonStatAffect> increase;
