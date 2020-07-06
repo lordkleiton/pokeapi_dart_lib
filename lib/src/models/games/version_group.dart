@@ -2,6 +2,7 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Version groups categorize highly similar versions of the games.
 class VersionGroup {
   int id;
   String name;

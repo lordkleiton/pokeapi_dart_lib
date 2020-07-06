@@ -2,6 +2,7 @@ import '../common/name.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Languages for translations of API resource information.
 class Language {
   int id;
   String name;

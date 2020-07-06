@@ -4,6 +4,8 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Flavors determine whether a Pokémon will benefit or suffer from eating a berry based on their nature.
+///Check out [Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/Flavor) for greater detail.
 class BerryFlavor {
   int id;
   String name;

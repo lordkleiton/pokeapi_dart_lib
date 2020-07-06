@@ -3,6 +3,8 @@ import '../common/named_api_resource.dart';
 import '../evolution/chain_link.dart';
 import '../../network/rest.dart';
 
+///Evolution chains are essentially family trees. They start with the lowest stage within a family and detail evolution
+///conditions for each as well as Pokémon they can evolve into up through the hierarchy.
 class EvolutionChain {
   int id;
   NamedApiResource babyTriggerItem;

@@ -3,6 +3,9 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Egg Groups are categories which determine which Pokémon are able to interbreed.
+///Pokémon may belong to either one or two Egg Groups.
+///Check out [Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/Egg_Group) for greater detail.
 class EggGroup {
   int id;
   String name;

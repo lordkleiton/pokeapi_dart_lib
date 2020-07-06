@@ -5,6 +5,8 @@ import '../pokemon/move_battle_style_preference.dart';
 import '../pokemon/nature_stat_change.dart';
 import '../../network/rest.dart';
 
+///Natures influence how a Pokémon's stats grow.
+///See [Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/Nature) for greater detail.
 class Nature {
   int id;
   String name;

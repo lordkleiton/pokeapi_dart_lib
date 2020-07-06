@@ -3,6 +3,9 @@ import '../common/named_api_resource_list.dart';
 import '../pokemon/pokemon_species_gender.dart';
 import '../../network/rest.dart';
 
+///Genders were introduced in Generation II for the purposes of breeding Pokémon but can also result
+///in visual differences or even different evolutionary lines.
+///Check out [Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/Gender) for greater detail.
 class Gender {
   int id;
   String name;

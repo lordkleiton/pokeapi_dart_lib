@@ -3,6 +3,8 @@ import '../common/named_api_resource_list.dart';
 import '../locations/pal_park_encounter_species.dart';
 import '../../network/rest.dart';
 
+///Areas used for grouping Pokémon encounters in Pal Park. They're like habitats that are specific
+/// to [Pal Park](https://bulbapedia.bulbagarden.net/wiki/Pal_Park).
 class PalParkArea {
   int id;
   String name;

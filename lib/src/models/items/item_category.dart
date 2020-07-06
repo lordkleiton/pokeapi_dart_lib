@@ -3,6 +3,7 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Item categories determine where items will be placed in the players bag.
 class ItemCategory {
   int id;
   String name;

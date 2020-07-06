@@ -3,6 +3,7 @@ import '../common/effect.dart';
 import '../common/flavor_text.dart';
 import '../../network/rest.dart';
 
+///Contest effects refer to the effects of moves when used in contests.
 class ContestEffect {
   int id;
   int appeal;

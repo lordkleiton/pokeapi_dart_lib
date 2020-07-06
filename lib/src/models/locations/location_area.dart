@@ -5,6 +5,7 @@ import '../locations/encounter_method_rate.dart';
 import '../locations/pokemon_encounter.dart';
 import '../../network/rest.dart';
 
+///Location areas are sections of areas, such as floors in a building or cave. Each area has its own set of possible Pokémon encounters.
 class LocationArea {
   int id;
   String name;

@@ -3,6 +3,7 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Pockets within the players bag used for storing items by category.
 class ItemPocket {
   int id;
   String name;

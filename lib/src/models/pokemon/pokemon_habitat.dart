@@ -3,6 +3,8 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Habitats are generally different terrain Pokémon can be found in but can also be areas designated
+///for rare or legendary Pokémon.
 class PokemonHabitat {
   int id;
   String name;

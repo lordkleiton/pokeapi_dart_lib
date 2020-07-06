@@ -4,6 +4,9 @@ import '../common/named_api_resource_list.dart';
 import '../pokemon/pokemon_form_sprites.dart';
 import '../../network/rest.dart';
 
+///Some Pokémon may appear in one of multiple, visually different forms.
+///These differences are purely cosmetic. For variations within a Pokémon species,
+///which do differ in more than just visuals, the 'Pokémon' entity is used to represent such a variety.
 class PokemonForm {
   int id;
   String name;

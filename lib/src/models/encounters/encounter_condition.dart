@@ -3,6 +3,7 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Conditions which affect what pokemon might appear in the wild, e.g., day or night.
 class EncounterCondition {
   int id;
   String name;

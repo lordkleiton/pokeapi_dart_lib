@@ -3,6 +3,8 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Move Ailments are status conditions caused by moves used during battle.
+///See [Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/Status_condition) for greater detail.
 class MoveAilment {
   int id;
   String name;

@@ -3,6 +3,8 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Evolution triggers are the events and conditions that cause a Pokémon to evolve.
+///Check out [Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/Methods_of_evolution) for greater detail.
 class EvolutionTrigger {
   int id;
   String name;

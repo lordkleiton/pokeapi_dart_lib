@@ -3,6 +3,8 @@ import '../berries/berry_flavor_map.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Berries are small fruits that can provide HP and status condition restoration, stat enhancement, and even damage negation when eaten by Pokémon.
+///Check out [Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/Berry) for greater detail.
 class Berry {
   int id;
   String name;

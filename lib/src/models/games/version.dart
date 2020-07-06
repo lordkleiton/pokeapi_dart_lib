@@ -3,6 +3,7 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Versions of the games, e.g., Red, Blue or Yellow.
 class Version {
   int id;
   String name;

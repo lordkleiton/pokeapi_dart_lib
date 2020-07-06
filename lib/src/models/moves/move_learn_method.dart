@@ -4,6 +4,7 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Methods by which Pokémon can learn moves.
 class MoveLearnMethod {
   int id;
   String name;

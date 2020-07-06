@@ -6,6 +6,8 @@ import '../pokemon/move_stat_affect_sets.dart';
 import '../pokemon/nature_stat_affect_sets.dart';
 import '../../network/rest.dart';
 
+///Stats determine certain aspects of battles. Each Pokémon has a value for each stat which
+///grows as they gain levels and can be altered momentarily by effects in battles.
 class Stat {
   int id;
   String name;

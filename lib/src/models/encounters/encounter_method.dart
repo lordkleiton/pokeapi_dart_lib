@@ -2,6 +2,8 @@ import '../common/name.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Methods by which the player might can encounter Pokémon in the wild, e.g., walking in tall grass.
+///Check out [Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/Wild_Pok%C3%A9mon) for greater detail.
 class EncounterMethod {
   int id;
   String name;

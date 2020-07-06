@@ -4,6 +4,7 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Encounter condition values are the various states that an encounter condition can have, i.e., time of day can be either day or night.
 class EncounterConditionValue {
   int id;
   String name;

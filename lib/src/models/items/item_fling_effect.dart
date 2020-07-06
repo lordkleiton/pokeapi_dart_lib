@@ -3,6 +3,7 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///The various effects of the move "Fling" when used with different items.
 class ItemFlingEffect {
   int id;
   String name;

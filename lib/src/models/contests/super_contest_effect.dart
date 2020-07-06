@@ -3,6 +3,7 @@ import '../common/flavor_text.dart';
 import '../common/named_api_resource.dart';
 import '../../network/rest.dart';
 
+///Super contest effects refer to the effects of moves when used in super contests.
 class SuperContestEffect {
   int id;
   int appeal;

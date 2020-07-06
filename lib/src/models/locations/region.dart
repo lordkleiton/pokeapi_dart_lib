@@ -3,6 +3,8 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///A region is an organized area of the Pokémon world. Most often, the main difference between regions is the species of
+///Pokémon that can be encountered within them.
 class Region {
   int id;
   List<NamedApiResource> locations;

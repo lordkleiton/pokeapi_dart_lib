@@ -3,6 +3,8 @@ import '../common/named_api_resource_list.dart';
 import '../contests/contest_name.dart';
 import '../../network/rest.dart';
 
+///Contest types are categories judges used to weigh a Pokémon's condition in Pokémon contests.
+///Check out [Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/Contest_condition) for greater detail.
 class ContestType {
   int id;
   String name;

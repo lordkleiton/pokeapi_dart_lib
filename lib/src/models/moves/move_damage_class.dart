@@ -4,6 +4,7 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Damage classes moves can have, e.g. physical, special, or non-damaging.
 class MoveDamageClass {
   int id;
   String name;

@@ -7,6 +7,9 @@ import '../pokemon/ability_flavor_text.dart';
 import '../pokemon/ability_pokemon.dart';
 import '../../network/rest.dart';
 
+///Abilities provide passive effects for Pokémon in battle or in the overworld. Pokémon have multiple possible
+///abilities but can have only one ability at a time.
+///Check out [Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/Ability) for greater detail.
 class Ability {
   int id;
   String name;

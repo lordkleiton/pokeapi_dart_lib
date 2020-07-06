@@ -3,6 +3,8 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///A generation is a grouping of the Pokémon games that separates them based on the Pokémon they include. In each
+///generation, a new set of Pokémon, Moves, Abilities and Types that did not exist in the previous generation are released.
 class Generation {
   int id;
   String name;

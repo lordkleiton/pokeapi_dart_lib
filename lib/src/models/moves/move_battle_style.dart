@@ -2,6 +2,8 @@ import '../common/name.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Styles of moves when used in the Battle Palace.
+///See [Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/Battle_Frontier_(Generation_III)) for greater detail.
 class MoveBattleStyle {
   int id;
   String name;

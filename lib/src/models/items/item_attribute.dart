@@ -4,6 +4,7 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Item attributes define particular aspects of items, e.g. "usable in battle" or "consumable".
 class ItemAttribute {
   int id;
   String name;

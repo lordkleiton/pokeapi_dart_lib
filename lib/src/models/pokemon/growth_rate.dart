@@ -4,6 +4,8 @@ import '../common/named_api_resource_list.dart';
 import '../pokemon/growth_rate_experience_level.dart';
 import '../../network/rest.dart';
 
+///Growth rates are the speed with which Pokémon gain levels through experience.
+///Check out [Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/Experience) for greater detail.
 class GrowthRate {
   int id;
   String name;

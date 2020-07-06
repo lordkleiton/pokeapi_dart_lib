@@ -4,6 +4,7 @@ import '../common/named_api_resource_list.dart';
 import '../pokemon/awesome_name.dart';
 import '../../network/rest.dart';
 
+///Shapes used for sorting Pokémon in a Pokédex.
 class PokemonShape {
   int id;
   String name;

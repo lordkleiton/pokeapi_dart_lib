@@ -4,6 +4,7 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Targets moves can be directed at during battle. Targets can be Pokémon, environments or even other moves.
 class MoveTarget {
   int id;
   String name;

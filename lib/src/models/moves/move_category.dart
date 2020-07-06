@@ -3,6 +3,7 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Very general categories that loosely group move effects.
 class MoveCategory {
   int id;
   String name;

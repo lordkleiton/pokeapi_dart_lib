@@ -4,6 +4,7 @@ import '../common/named_api_resource.dart';
 import '../common/named_api_resource_list.dart';
 import '../../network/rest.dart';
 
+///Locations that can be visited within the games. Locations make up sizable portions of regions, like cities or routes.
 class Location {
   int id;
   String name;

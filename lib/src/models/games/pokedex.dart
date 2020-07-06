@@ -5,6 +5,9 @@ import '../common/named_api_resource_list.dart';
 import '../games/pokemon_entry.dart';
 import '../../network/rest.dart';
 
+///A Pokédex is a handheld electronic encyclopedia device; one which is capable of recording and retaining
+///information of the various Pokémon in a given region with the exception of the national dex and some smaller
+///dexes related to portions of a region. See [Bulbapedia](http://bulbapedia.bulbagarden.net/wiki/Pokedex) for greater detail.
 class Pokedex {
   int id;
   String name;
