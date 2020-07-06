@@ -49,3 +49,17 @@ or
     Pokemon.find().then((pokemon) {
       print(pokemon.results);
     })
+
+# TODO
+
+- The package description is too short. (-20 points)
+
+  Add more detail to the `description` field of `pubspec.yaml`. Use 60 to 180 characters to describe the package, what it does, and its target use case.
+
+- Maintain an example. (-10 points)
+
+  Create a short demo in the `example/` directory to show how to use this package.
+
+  Common filename patterns include `main.dart`, `example.dart`, and `pokeapi_dart_lib.dart`. Packages with multiple examples should provide `example/README.md`.
+
+  For more information see the [pub package layout conventions](https://www.dartlang.org/tools/pub/package-layout#examples).
