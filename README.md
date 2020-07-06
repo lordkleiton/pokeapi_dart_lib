@@ -2,7 +2,7 @@ A fully fledged [pokéapi](https://pokeapi.co/) dart/flutter library
 
 # Available models
 
-All endpoints available in [the docs](https://pokeapi.co/docs/v2) are also available in this lib as models with the exact same name. All of them have the exact same property names¹ will have the `find` and `get` methods available
+All endpoints available in [the docs](https://pokeapi.co/docs/v2) are also available in this lib as models with the exact same name. All of them have the exact same property names¹ and they'll have the `find` and `get` methods available
 
 There's also a multitude of auxiliary models available, but they do not represent endpoints; they are included to facilitate your workflow. All of them have the exact same property names¹ and none of them will have the `find` and `get` methods available
 
