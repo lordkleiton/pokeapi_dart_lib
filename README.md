@@ -22,7 +22,7 @@ Will return an instance of the model you called it from. `query` should be an id
 
 ## import
 
-    import 'package:pokeapi_dart_client/pokeapi_dart_client.dart';
+    import 'package:pokeapi_dart_lib/pokeapi_dart_lib.dart';
 
 ## examples
 
