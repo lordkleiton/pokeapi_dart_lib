@@ -16,8 +16,8 @@ class PastMoveStatValues {
         power = json['power'],
         pp = json['pp'],
         effectEntries = VerboseEffect.fromList(json['effect_entries'] ?? []),
-        type = NamedApiResource.fromJson(json['type']),
-        versionGroup = NamedApiResource.fromJson(json['version_group']);
+        type = NamedApiResource.fromJson(json['type'] ?? {}),
+        versionGroup = NamedApiResource.fromJson(json['version_group'] ?? {});
 
   static List<PastMoveStatValues> fromList(List<dynamic> list) =>
       list.map((e) => PastMoveStatValues.fromJson(e ?? {})).toList();
