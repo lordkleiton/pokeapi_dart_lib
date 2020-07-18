@@ -1,3 +1,4 @@
+import '../models/pokemon/type.dart';
 import '../models/berries/berry.dart';
 import '../models/berries/berry_firmness.dart';
 import '../models/berries/berry_flavor.dart';
